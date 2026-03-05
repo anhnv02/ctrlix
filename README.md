@@ -27,9 +27,11 @@ Once you launch `ctrlix`, you enter an interactive shell with professional forma
 - **`/add`**: Log in to a new ChatGPT account. It opens your browser and automatically saves the account using your email as the identifier.
 - **`/start`**: Starts the internal proxy server (Default port: `8888`).
 - **`/stop`**: Stops the running proxy server.
+- **`/status`**: Check the current status of the server and the active account.
 - **`/port`**: Change the default port (e.g., to `9000`). This setting is saved persistently.
+- **`/quota`**: Check your real-time ChatGPT Codex usage and rate limits directly from your account.
 - **`/accounts`**: View all logged-in accounts.
-- **`/switch`**: Fast-switch between multiple ChatGPT accounts.
+- **`/switch`**: Fast-switch between multiple ChatGPT accounts. Automatically restarts the proxy server if it is currently running.
 - **`/remove`**: Safely delete a saved account.
 - **`/help`**: Display the command guide.
 - **`/exit`**: Leave the CTRLIX controller.
